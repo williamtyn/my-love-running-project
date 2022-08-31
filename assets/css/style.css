@@ -212,7 +212,30 @@ hr {
     color: white;
 }
 
-#times-hr { 
+#times > hr { 
     color: white;
     margin: 10px;
+}
+
+/* footer */
+
+footer { 
+    height: 150px;
+    background-color: #DCD5D4;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 3%;
+    color: black;
+
 }
